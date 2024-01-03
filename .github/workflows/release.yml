@@ -51,7 +51,7 @@ jobs:
         namespace: HolographicWings
         description: This mod is a moon called Christmas Village that was embed in LethalExpansion since 22nd december and 3rd junuary.
         token: ${{ secrets.THUNDERSTORE_TOKEN }}
-        name: ChristmasVillage
+        name: ChristmasVillage_Legacy
         version: ${{ env.VERSION }}
         community: lethal-company
         repo: thunderstore.io
