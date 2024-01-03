@@ -1,7 +1,7 @@
 # Christmas Village
 
- This mod is a moon called Christmas Village that was embed in LethalExpansion since 22nd december and Xth junuary.  
- [Github repository](https://github.com/HolographicWings/LethalExpansion)
+ This mod is a moon called Christmas Village that was embed in LethalExpansion since 22nd december and 3rd junuary.  
+ [Github repository](https://github.com/HolographicWings/ChristmasVillage_LethalCompany)
 
  Features :
  - 2 Fire exits.
@@ -9,7 +9,15 @@
  - 13 New scraps.
 
 ## Screenshots :
-
+![Landing](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Landing.webp "Landing")
+![VillageEntrance](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/VillageEntrance.webp "VillageEntrance")
+![VillageCenter](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/VillageCenter.webp "VillageCenter")
+![Cliff](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cliff.webp "Cliff")
+![Cave1Entrance](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cave1Entrance.webp "Cave1Entrance")
+![Cave1Trapdoor](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cave1Trapdoor.webp "Cave1Trapdoor")
+![ToCave2Cliff2](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/ToCave2Cliff2.webp "ToCave2Cliff2")
+![Cave2Firecamp2](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cave2Firecamp2.webp "Cave2Firecamp2")
+![Cave2Trapdoor](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cave2Trapdoor.webp "Cave2Trapdoor")
 
 ## Changes :
 - 1.3.10
@@ -24,7 +32,7 @@
 	- Added Christmas Village Moon.
 
 ## Report a bug :
-I will maybe open a Discord for support if the mod gets a lot of users, meanwhile you can use the [github's issue tab](https://github.com/HolographicWings/LethalExpansion/issues).
+I will maybe open a Discord for support if the mod gets a lot of users, meanwhile you can use the [github's issue tab](https://github.com/HolographicWings/ChristmasVillage_LethalCompany/issues).
 Please enable the fellowing settings in the "BepInEx.cfg" setting file from the "Lethal Company\BepInEx\config\" folder:  
   
 [Logging]  

@@ -1,0 +1,71 @@
+name: Package and Release
+
+on:
+  release:
+    types: [published]
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install 7-Zip
+      run: sudo apt-get install p7zip-full
+
+    - name: Extract Version from Tag
+      run: echo "VERSION=$(echo ${GITHUB_REF} | sed 's/refs\/tags\/v//')" >> $GITHUB_ENV
+
+    - name: Zip files
+      run: 7z a -tzip -mx=9 ./Releases/ChristmasVillage_v${{ env.VERSION }}.zip ./Build/*
+
+    - name: Upload Release Asset Zip
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.CHRISTMAS_VILLAGE_SECRET }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./Releases/ChristmasVillage_v${{ env.VERSION }}.zip
+        asset_name: ChristmasVillage_v${{ env.VERSION }}.zip
+        asset_content_type: application/zip
+
+    # - name: 7z files
+      # run: 7z a -t7z -mx=9 ./Releases/ChristmasVillage_v${{ env.VERSION }}.7z ./Build/*
+        
+    # - name: Upload Release Asset 7z
+      # uses: actions/upload-release-asset@v1
+      # env:
+        # GITHUB_TOKEN: ${{ secrets.CHRISTMAS_VILLAGE_SECRET }}
+      # with:
+        # upload_url: ${{ github.event.release.upload_url }}
+        # asset_path: ./Releases/ChristmasVillage_v${{ env.VERSION }}.7z
+        # asset_name: ChristmasVillage_v${{ env.VERSION }}.7z
+        # asset_content_type: application/x-7z-compressed
+
+    - name: Upload Release Asset Zip
+      uses: GreenTF/upload-thunderstore-package@v4.2
+      with:
+        namespace: HolographicWings
+        description: This mod is a moon called Christmas Village that was embed in LethalExpansion since 22nd december and 3rd junuary.
+        token: ${{ secrets.THUNDERSTORE_TOKEN }}
+        name: ChristmasVillage
+        version: ${{ env.VERSION }}
+        community: lethal-company
+        repo: thunderstore.io
+        categories: |
+          bepinex
+          clientside
+          serverside
+          items
+          moons
+          mods
+          audio
+          misc
+        deps: |
+          BepInEx-BepInExPack@5.4.2100
+          HolographicWings-LethalExpansion@${{ env.LAST_EXPANSION_VERSION }}
+        website: https://github.com/HolographicWings/ChristmasVillage_LethalCompany
+        file: ./Releases/ChristmasVillage_v${{ env.VERSION }}.zip
