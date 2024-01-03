@@ -1,7 +1,7 @@
 # Christmas Village
 
  This mod is a moon called Christmas Village that was embed in LethalExpansion since 22nd december and 3rd junuary.  
- [Thunderstore Link](https://github.com/HolographicWings/ChristmasVillage_Legacy)
+ [Thunderstore Link](https://thunderstore.io/c/lethal-company/p/HolographicWings/ChristmasVillage_Legacy)
 
  Features :
  - 2 Fire exits.
