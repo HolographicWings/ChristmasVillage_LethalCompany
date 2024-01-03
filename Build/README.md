@@ -1,6 +1,6 @@
 # Christmas Village
 
- This mod is a moon called Christmas Village that was embed in LethalExpansion since 22nd december and 3rd junuary.  
+ This mod is a moon called Christmas Village that was embed in LethalExpansion between 22nd december and 3rd junuary.  
  [Github repository](https://github.com/HolographicWings/ChristmasVillage_LethalCompany)
 
  Features :
