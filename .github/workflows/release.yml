@@ -66,6 +66,6 @@ jobs:
           misc
         deps: |
           BepInEx-BepInExPack@5.4.2100
-          HolographicWings-LethalExpansion@${{ env.LAST_EXPANSION_VERSION }}
+          HolographicWings-LethalExpansion@${{ env.VERSION }}
         website: https://github.com/HolographicWings/ChristmasVillage_LethalCompany
         file: ./Releases/ChristmasVillage_v${{ env.VERSION }}.zip
