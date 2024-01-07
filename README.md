@@ -20,6 +20,8 @@
 ![Cave2Trapdoor](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cave2Trapdoor.webp "Cave2Trapdoor")
 
 ## Changes :
+- 1.3.16
+	- Reversed networking change with Entrances that causing issues.
 - 1.3.15
 	- Small networking fix with Entrances.
 - 1.3.12
