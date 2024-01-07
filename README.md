@@ -20,7 +20,10 @@
 ![Cave2Trapdoor](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cave2Trapdoor.webp "Cave2Trapdoor")
 
 ## Changes :
+- 1.3.15
+	- Small networking fix with Entrances.
 - 1.3.12
+	- (Project File) Removed double materials causing conflict in bundle creation.
 	- Improved path to Cave 2.
 - 1.3.10
 	- Reduced spawn luck of Christmas Star in Christmas Village.
