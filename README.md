@@ -22,6 +22,7 @@
 ## Changes :
 - 1.3.34
 	- Fixed wrong entrances models since LE 1.3.28.
+	- Fixed quicksand doesn't showing. (Thanks to sfDesat and Audio Knight)
 - 1.3.28
     - Finally fixed the Coil-Head that don't attack clients.
 - 1.3.16
