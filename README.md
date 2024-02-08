@@ -20,6 +20,10 @@
 ![Cave2Trapdoor](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cave2Trapdoor.webp "Cave2Trapdoor")
 
 ## Changes :
+- 1.3.34
+	- Fixed wrong entrances models since LE 1.3.28.
+- 1.3.28
+    - Finally fixed the Coil-Head that don't attack clients.
 - 1.3.16
 	- Reversed networking change with Entrances that causing issues.
 - 1.3.15

@@ -33687,6 +33687,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2080990322701911724, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 1715029657405122953, guid: bd7dc43109324744991bdbb16b160669,
+        type: 3}
     - target: {fileID: 3223750282152900750, guid: 8ad6a50fde02a054dad235ac58079f5a,
         type: 3}
       propertyPath: GlobalObjectIdHash
@@ -33731,6 +33737,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458504379458557578, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: serializedData
+      value: EntranceID,2;AudioReverbPreset,2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458504379458557578, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: data.Array.data[0]._string2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8215988670770098704, guid: 8ad6a50fde02a054dad235ac58079f5a,
         type: 3}
@@ -34575,6 +34591,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2080990322701911724, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 3991429596390935838, guid: dcf80955b19b79447891a27e972a7a47,
+        type: 3}
     - target: {fileID: 3223750282152900750, guid: 8ad6a50fde02a054dad235ac58079f5a,
         type: 3}
       propertyPath: GlobalObjectIdHash
@@ -42712,6 +42734,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2080990322701911724, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 1715029657405122953, guid: bd7dc43109324744991bdbb16b160669,
+        type: 3}
     - target: {fileID: 3223750282152900750, guid: 8ad6a50fde02a054dad235ac58079f5a,
         type: 3}
       propertyPath: GlobalObjectIdHash
@@ -42796,6 +42824,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.871
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458504379458557578, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: serializedData
+      value: EntranceID,1;AudioReverbPreset,2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458504379458557578, guid: 8ad6a50fde02a054dad235ac58079f5a,
+        type: 3}
+      propertyPath: data.Array.data[0]._string2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8215988670770098704, guid: 8ad6a50fde02a054dad235ac58079f5a,
         type: 3}
@@ -43523,6 +43561,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5410968692845485640, guid: 034b78117164cac49a90b0e977006714,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 8681541410405412263, guid: d01b8a7f3caced347959b3e72ef8963d,
+        type: 3}
     - target: {fileID: 7608465194888835338, guid: 034b78117164cac49a90b0e977006714,
         type: 3}
       propertyPath: m_Name

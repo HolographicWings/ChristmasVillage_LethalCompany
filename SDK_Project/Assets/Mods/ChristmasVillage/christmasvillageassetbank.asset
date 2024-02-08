@@ -18,7 +18,15 @@ MonoBehaviour:
     PlanetPrefabPath: 
     PlanetPrefab: {fileID: 2802582009948295791, guid: cfa5a2304a519254fbb306aba36e41e9,
       type: 3}
-  _networkPrefabs: []
+  _networkPrefabs:
+  - PrefabName: 
+    PrefabPath: 
+    Prefab: {fileID: 3991429596390935838, guid: dcf80955b19b79447891a27e972a7a47,
+      type: 3}
+  - PrefabName: 
+    PrefabPath: 
+    Prefab: {fileID: 1715029657405122953, guid: bd7dc43109324744991bdbb16b160669,
+      type: 3}
   serializedAudioClips: 
   serializedPlanetPrefabs: christmasvillagemoonplanetprefabmat,Assets/Mods/ChristmasVillage/christmasvillagemoonplanetprefabmat.prefab
-  serializedNetworkPrefabs: 
+  serializedNetworkPrefabs: invisibleentranceteleport,Assets/Mods/ChristmasVillage/invisibleentranceteleport.prefab;trapdoorentranceteleport,Assets/Mods/ChristmasVillage/trapdoorentranceteleport.prefab
