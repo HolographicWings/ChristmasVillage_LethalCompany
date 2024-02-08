@@ -2060,6 +2060,7 @@ GameObject:
   - component: {fileID: 2111288166649151327}
   - component: {fileID: 1539814746909413795}
   - component: {fileID: 6533983183566172763}
+  - component: {fileID: 2058260013482271157}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -2116,7 +2117,7 @@ Terrain:
   m_ScaleInLightmap: 0.0256
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
-  m_RenderingLayerMask: 257
+  m_RenderingLayerMask: 1281
   m_AllowAutoConnect: 1
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
@@ -2141,6 +2142,19 @@ TerrainCollider:
   serializedVersion: 2
   m_TerrainData: {fileID: 15600000, guid: 61f9b3e88aa304346bb41c1a7ca9c95e, type: 2}
   m_EnableTreeColliders: 1
+--- !u!114 &2058260013482271157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979663827271513567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1909934683, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 1539814746909413795}
 --- !u!1 &1988698159724223321
 GameObject:
   m_ObjectHideFlags: 0
@@ -8141,6 +8155,7 @@ GameObject:
   - component: {fileID: 8511765104790029308}
   - component: {fileID: 3471693618586749639}
   - component: {fileID: 7870879741417017022}
+  - component: {fileID: 6831675320393426543}
   m_Layer: 0
   m_Name: FarTerrain
   m_TagString: Untagged
@@ -8241,6 +8256,19 @@ MonoBehaviour:
   m_IgnoreFromBuild: 1
   m_ApplyToChildren: 1
   m_AffectedAgents: ffffffff
+--- !u!114 &6831675320393426543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352295723780010220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1909934683, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 8511765104790029308}
 --- !u!1 &7374928835055527835
 GameObject:
   m_ObjectHideFlags: 0
