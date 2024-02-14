@@ -20,6 +20,9 @@
 ![Cave2Trapdoor](https://raw.githubusercontent.com/HolographicWings/ChristmasVillage_LethalCompany/main/Screenshots/Cave2Trapdoor.webp "Cave2Trapdoor")
 
 ## Changes :
+- 1.3.38
+	- Fixed asset names.
+	- Edited some mesh settings.
 - 1.3.34
 	- Fixed wrong entrances models since LE 1.3.28.
 	- Fixed quicksand doesn't showing. (Thanks to sfDesat and Audio Knight)
